@@ -11,7 +11,7 @@
 #header {
     align-items: center;
     display: grid;
-    grid-template-rows: 32px 32px 16px 12px repeat(2, 32px);
+    grid-template-rows: repeat(2, 32px) repeat(2, 16px) repeat(2, 32px);
     justify-content: center;
     text-align: center;
     text-shadow: 1px 1px 2px white;
