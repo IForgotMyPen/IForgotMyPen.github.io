@@ -7,6 +7,7 @@
     background-color: #132019;
     color: #ecdfe6;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px white;
 }
 #header {
     align-items: center;
@@ -14,7 +15,6 @@
     grid-template-rows: repeat(2, 32px) repeat(2, 16px) repeat(2, 32px) 24px auto;
     justify-content: center;
     text-align: center;
-    text-shadow: 1px 1px 2px white;
 }
 #header #name h1 {
     animation: nameAnimation;
@@ -35,14 +35,12 @@
     grid-template-columns: repeat(4, 128px);
     justify-content: center;
     text-align: center;
-    text-shadow: 1px 1px 2px white;
 }
 #tab-bar button {
     border-color: #ecdfe6;
     border-radius: 4px;
     box-shadow: 1px 1px 2px white;
     font-size: 16px;
-    text-shadow: 1px 1px 2px white;
     transition-duration: 0.2s;
     width: 100%;
 }
@@ -53,4 +51,15 @@
     background-color: #ecdfe6;
     color: #132019;
     font-weight: bold;
+}
+#tab-content-area {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#tab-content-area .tab-content {
+    display: none;
+}
+#tab-content-area .active-tab-content {
+    display: flex;
 }
