@@ -31,19 +31,19 @@
 
     <div id="tab-bar">
         <div class="tab" id="projects">
-            <button onclick="changeTab('projects')">Projects</button>
+            <button type="button" onclick="changeTab('projects')">Projects</button>
         </div>
 
         <div class="tab" id="experience">
-            <button onclick="changeTab('experience')">Experience</button>
+            <button type="button" onclick="changeTab('experience')">Experience</button>
         </div>
 
         <div class="tab" id="education">
-            <button onclick="changeTab('education')">Education</button>
+            <button type="button" onclick="changeTab('education')">Education</button>
         </div>
 
         <div class="tab" id="contact">
-            <button onclick="changeTab('contact')">Contact</button>
+            <button type="button" onclick="changeTab('contact')">Contact</button>
         </div>
     </div>
 
@@ -51,7 +51,12 @@
 
     <div id="tab-content-area">
         <div class="tab-content" id="projects">
-            <p>TEMP: this is the projects tab</p>
+            <div class="project">
+                <a href="https://iforgotmypen.github.io/cards/" target="_blank" id="cards">
+                    <p class="project-name">/cards</p>
+                    <p class="project-description">Chill out with some zen card-drawing, or try your hand at a typing minigame!</p>
+                </a>
+            </div>
         </div>
 
         <div class="tab-content" id="experience">
